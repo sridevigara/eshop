@@ -4,6 +4,7 @@ $route['default_controller'] = "Home";
 $route['(:any)-category.html'] = "Category/index/$1";
 $route['(:any).html'] = "Product/index/$1";
 $route['addcart'] = "Cart/addToCart";
+$route['cart'] = "Cart";
 $route['checkout'] = "Cart/checkoutCart";
 $route['deletecart/(:any)'] = "Cart/deleteCart/$1";
 $route['login'] = "User/login";
